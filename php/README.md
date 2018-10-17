@@ -30,6 +30,19 @@ Install xdebug
 sudo pecl install xdebug
 ```
 
+Add xdebug to PHP ini
+
+```ini
+zend_extension=/usr/lib/php/20151012/xdebug.so
+```
+
+Restart web server (Apache)
+
+```bash
+sudo apache2ctl restart
+```
+
+
 
 
 
