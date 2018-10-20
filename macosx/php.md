@@ -8,8 +8,9 @@ curl -O http://pear.php.net/go-pear.phar
 sudo php -d detect_unicode=0 go-pear.phar
 ```
 
-Use option [`1`] to change path to [`/usr/local/pear`]
-Use option [`4`] to change path to [`/usr/local/bin`]
+* Use option [`1`] to change path to [`/usr/local/pear`]
+* Use option [`4`] to change path to [`/usr/local/bin`]
+
 
 Check installation using:
 
