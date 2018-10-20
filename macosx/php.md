@@ -21,7 +21,7 @@ pear version
 ## Install XDebug
 
 ```
-pecl install xdebug
+sudo pecl install xdebug
 ```
 
 Add or modify the following line to the `php.ini` file
