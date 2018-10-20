@@ -21,11 +21,23 @@ pear version
 ## Install XDebug
 
 ```
+brew install autoconf
+```
+
+
+```
 sudo pecl install xdebug
 ```
 
-Add or modify the following line to the `php.ini` file
+Take note of the location of xdebug.so during installation and add or modify the following line to the `php.ini` file
+using your xdebug.so path from the previous installation.
 
 ```
-zend_extension="/usr/local/php/modules/xdebug.so"
+zend_extension="/usr/local/php/extensions/no-debug-zts-20160303/xdebug.so"
+```
+
+Check installation using this command (a list of xdebug configurations will be shown)
+
+```
+php -i |  grep xdebug
 ```
